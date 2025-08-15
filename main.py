@@ -15,8 +15,8 @@ from datetime import datetime, timedelta, timezone
 class Config:
     """存储所有配置项"""
     # 核心路径
-    CFST_DIR = '/mnt/workspace/cfst'
-    XRAY_DIR = '/mnt/workspace/xray'
+    CFST_DIR = './cfst'
+    XRAY_DIR = './xray'
 
     # 可执行文件路径
     CFST_EXECUTABLE = f'{CFST_DIR}/cfst'
